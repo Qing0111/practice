@@ -1,1 +1,0 @@
-import{_ as t,a as s,c,p as a,h as n,b as _}from"./index-4bb579bb.js";const d={},o=e=>(a("data-v-b6644410"),e=e(),n(),e),p=o(()=>_("h2",null,"404",-1)),l=o(()=>_("p",null,"Not found page",-1)),r=[p,l];function i(e,u){return s(),c("main",null,r)}const f=t(d,[["render",i],["__scopeId","data-v-b6644410"]]);export{f as default};
