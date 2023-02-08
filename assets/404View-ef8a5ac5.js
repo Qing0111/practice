@@ -1,0 +1,1 @@
+import{_ as o,a as t,c as s,p as c,h as n,b as _}from"./index-38316594.js";const d={},a=e=>(c("data-v-fdfaa499"),e=e(),n(),e),p=a(()=>_("h2",null,"404",-1)),f=a(()=>_("p",null,"Not found page",-1)),l=[p,f];function r(e,i){return t(),s("main",null,l)}const h=o(d,[["render",r],["__scopeId","data-v-fdfaa499"]]);export{h as default};
