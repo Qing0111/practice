@@ -89,10 +89,10 @@ main {
       }
       button {
         border: none;
-        padding: 10px;
         width: 50px;
         height: 50px;
         cursor: pointer;
+        line-height: 50px;
         background-color: rgb(240, 241, 240);
         border-radius: 100%;
         color: black;
@@ -127,7 +127,7 @@ main {
         button {
           position: absolute;
           top: 2px;
-          right: 2px;
+          right: 8px;
           background-color: transparent;
           font-size: 20px;
           cursor: pointer;

@@ -7,7 +7,7 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
   // 更改dist裡的位置
-  base: "/vite-practice/",
+  base: "/practice/",
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),

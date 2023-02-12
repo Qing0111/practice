@@ -88,5 +88,17 @@ export const useTodosStore = defineStore("todos", () => {
   const updateFilter = (value) => {
     filter.value = value;
   };
-  return { todos, addTodo, toggleTodo, updateFilter, filterTodo };
+
+  const removeTodo = (todo) => {
+    todos.value.splice(todos.value.indexOf(todo), 1);
+  };
+  return {
+    todos,
+    filter,
+    addTodo,
+    toggleTodo,
+    updateFilter,
+    filterTodo,
+    removeTodo,
+  };
 });
